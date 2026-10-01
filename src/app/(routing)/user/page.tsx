@@ -9,7 +9,7 @@ export default async function UserPage() {
   );
 }
 const getUsers = async () => {
-  await delay(3000);
+  // await delay(3000);
   return fetch("https://jsonplaceholder.typicode.com/users").then((res) =>
     res.json(),
   );
